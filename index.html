@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Musical Bethlehem</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/style.css" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+    <div class="container px-3">
+        <a href="/index.html" class="navbar-brand pe-3">
+            <img src="/Img/logo2.jpg" width="47" alt="Bethlehem">
+            Bethlehem
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/services.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about.html">Nosotros</a></li> 
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Hero slider + BG parallax -->
+<section class="jarallax bg-dark py-xxl-5 position-relative" data-jarallax data-speed="0.4" data-bs-theme="dark">
+    <!-- Overlay -->
+    <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
+    <!-- Image -->
+    <img src="/Img/eventos.jpg" class="jarallax-img w-100 img-fluid" alt="Hero Background Image" style="object-fit: cover; min-height: 40vh;">
+    <!-- Content -->
+    <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
+        <div class="container text-center py-xl-5">
+            <div class="row justify-content-center pt-lg-5">
+                <div class="col-xl-8 col-lg-9 col-md-10 col-11">
+                    <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
+                        "effect": "fade",
+                        "speed": 500,
+                        "autoplay": {
+                            "delay": 5500,
+                            "disableOnInteraction": false
+                        },
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                        },
+                        "navigation": {
+                            "prevEl": "#hero-prev",
+                            "nextEl": "#hero-next"
+                        }
+                    }'>
+                        <div class="swiper-wrapper">
+                            <!-- Item -->
+                            <div class="swiper-slide">
+                                <h2 class="display-2 text-white fw-bold animate__animated animate__fadeInDown mb-lg-4" style="animation-delay: 0.5s;">
+                                    Grupo Musical Bethlehem
+                                </h2>
+                            </div>
+                        </div>
+                        <!-- Pagination (bullets) -->
+                        <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Social Media Links -->
+    <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between position-relative zindex-5 pb-5">
+        <div class="d-flex mb-4 mb-sm-0">
+            <a href="https://www.instagram.com/grupo_musical_bethlehem/" class="btn btn-icon btn-secondary btn-instagram rounded-circle me-2" aria-label="Instagram">
+                <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/people/Grupo-musical-Bethlehem/100063577954854/" class="btn btn-icon btn-secondary btn-facebook rounded-circle me-2" aria-label="Facebook">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://wa.me/50685787609?text=Consulta%20de%20servicios%20Grupo%20Musical%20Bethlehem" class="btn btn-icon btn-secondary btn-whatsapp rounded-circle me-2" aria-label="Whatsapp">
+                <i class="bx bxl-whatsapp"></i>
+            </a>
+            <a href="https://www.youtube.com/shorts/F9SrbHtggR0" class="btn btn-icon btn-secondary btn-youtube rounded-circle me-2" aria-label="YouTube">
+                <i class="bx bxl-youtube"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="container pt-5 mt-2 mt-md-4 mt-lg-5">
+    <div class="row pt-xl-3">
+        <div class="col-md-5 text-center text-md-start pb-5">
+            <h1 class="mb-4">Grupo Musical Bethlehem</h1>
+            <p class="fs-lg pb-lg-3 mb-4">
+                Es una agrupación dedicada a llevar música y oración a las familias y comunidades, creando espacios de reflexión, fe y encuentro espiritual. Desde nuestro inicio en 2017, hemos trabajado con pasión para ofrecer un servicio de calidad que inspira y conecta a las personas a través de cantos litúrgicos y meditaciones.
+
+                Explora nuestro sitio y descubre más sobre nuestra historia, servicios y la misión que nos guía. Te invitamos a acompañarnos en este viaje de fe, música y dedicación.
+            </p>
+            <a href="/about.html" class="btn btn-primary shadow-primary btn-lg">
+                Más sobre nosotros
+            </a>
+        </div>
+        <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+            <img src="/Img/rezos.jpg" class="rounded-3 shadow-sm img-fluid" alt="Image">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Services -->
+    <section class="bg-secondary pb-md-2 pb-lg-5">
+        <div class="d-none d-lg-block" style="margin-top: -60px; padding-top: 60px;"></div>
+        <div class="container pb-4 pt-5">
+            <h2 class="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">Servicios</h2>
+            <div class="row align-items-center pb-5 mb-lg-2">
+                <div class="col-md-8 text-center text-md-start">
+                    <p class="fs-lg text-muted mb-md-0">
+                        El Grupo Musical Bethlehem ofrece una experiencia única y personalizada para todo tipo de eventos. Con un repertorio versátil y una calidad musical excepcional, nos especializamos en amenizar momentos inolvidables.
+    
+                        Ya sea para bodas, eventos corporativos, fiestas privadas o celebraciones religiosas, nuestro equipo combina talento y profesionalismo para crear la atmósfera perfecta. Además, adaptamos nuestra música a las necesidades y gustos de cada cliente, asegurando una experiencia completamente memorable.
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <a href="/services.html" class="btn btn-outline-primary btn-lg">Ver todos los servicios</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Video Section: Varios Shorts -->
+    <section class="container text-center pb-5 mt-4 mb-4">
+        <h2 class="h1 mb-4">Presentaciones</h2>
+        <div class="row g-4">
+            <!-- Video 1 -->
+            <div class="col-md-4">
+                <div class="position-relative rounded-3 overflow-hidden">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
+                        <a href="https://youtube.com/shorts/F9SrbHtggR0?si=ooDdi1qGKcwAjsyj" class="btn btn-video btn-icon btn-xl stretched-link bg-white" aria-label="Play YouTube Short">
+                            <i class="bx bx-play"></i>
+                        </a>
+                    </div>
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-35"></span>
+                    <img src="/Img/eventos3.jpg" class="d-block w-100" alt="Cover image">
+                </div>
+            </div>
+    
+            <!-- Video 2 -->
+            <div class="col-md-4">
+                <div class="position-relative rounded-3 overflow-hidden">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
+                        <a href="https://youtube.com/shorts/2ORvvutYwkQ?si=8W27UKCy8HCdlLAf" class="btn btn-video btn-icon btn-xl stretched-link bg-white" aria-label="Play YouTube Short">
+                            <i class="bx bx-play"></i>
+                        </a>
+                    </div>
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-35"></span>
+                    <img src="/Img/misas.jpg" class="d-block w-100" alt="Cover image">
+                </div>
+            </div>
+    
+            <!-- Video 3 -->
+            <div class="col-md-4">
+                <div class="position-relative rounded-3 overflow-hidden">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
+                        <a href="https://youtube.com/shorts/n9RLW83qjRM?si=BdWPLRSnPCplwGuE" class="btn btn-video btn-icon btn-xl stretched-link bg-white" aria-label="Play YouTube Short">
+                            <i class="bx bx-play"></i>
+                        </a>
+                    </div>
+                    <span class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-35"></span>
+                    <img src="/Img/rezos3.jpg" class="d-block w-100" alt="Cover image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark border-top border-light pt-5 pb-4 pb-lg-5">
+        <div class="container pt-lg-4">
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+                        <img src="/Img/logo2.jpg" width="47" alt="Silicon">
+                        Grupo Musical Bethlehem
+                    </div>
+                    <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+                        <span class="text-light opacity-50">&copy; Reservados todos los derechos. Hecho por Juanpa_ac</span>
+                    </p>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+                    <div id="footer-links" class="row">
+                        <div class="col-lg-4">
+                            <h6 class="mb-2">
+                                <a href="#useful-links" class="d-block text-white dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>
+                            </h6>
+                            <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                                <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                                    <li class="nav-item"><a href="/index.html" class="nav-link d-inline-block px-0 pt-1 pb-2 text-white">Inicio</a></li>
+                                    <li class="nav-item"><a href="/services.html" class="nav-link d-inline-block px-0 pt-1 pb-2 text-white">Servicios</a></li>
+                                    <li class="nav-item"><a href="/about.html" class="nav-link d-inline-block px-0 pt-1 pb-2 text-white">Nosotros</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                            <h6 class="mb-2">Contacto</h6>
+                            <a href="mailto:grupomusicalbethlehem@gmail.com" class="fw-medium">grupomusicalbethlehem@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
